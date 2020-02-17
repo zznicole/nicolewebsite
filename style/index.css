@@ -1,24 +1,32 @@
 .pagename { 
     color:deeppink; 
     background-color:lightgrey; 
-    text-align:center;
+    text-align:center;  
     padding:15px;
    }   
 
 #name {
     color:pink;
     font-style:italic; 
+    font-size:larger;
     text-align:right;
 }
 
+ul {
+    position:relative; left:110px;
+    font-size: larger;
+
+} 
+
 table ,th,td {
-    border:1px solid black; 
+    border:1.5px solid black; 
     background-color:lightpink; 
-    padding:5px;
-    position:relative right 100px ;
+    padding:10px;
+    
 }
 table {
     border-collapse: collapse;
+    position:relative; left:130px ;
 }
 .contactme {
     text-align:center;
@@ -28,13 +36,22 @@ table {
     height:150px;
 }
 img {
-    position: width 100%;
+    width:400px;
+    position:relative; left:500px;
 }
 .form1 {
-    border:1px solid black;
+    position:relative; left:500px;
+    border:1.5px solid black;
 }
+
 .form2 {
-    border:1px solid black;
+    position:relative; left:500px;
+    border:1.5px solid black;
+}
+button {
+    size:width30px;
+    background-color: lightpink;
+    position:relative; left:500px;
 }
 
 footer {
